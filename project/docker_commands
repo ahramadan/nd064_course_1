@@ -1,11 +1,50 @@
 ## Docker commands used to build the application 
-# TODO: insert the docker build command
+docker build -t techtrends .
 
 ## Docker commands used to run the application
-# TODO: insert the docker run command
+docker run -d -p 7111:3111 techtrends
 
 ## Docker commands used to get the application logs
-# TODO: insert the docker logs command
+docker logs 17a656d2aaf7
 
 ## Logs from the container running the TechTrends application
-# TODO: paste logs from the Docker container 
+
+dev@DESKTOP-QJ2HFPO:~/udacity/cloud/nd064_course_1/project$ docker logs 17a656d2aaf7
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+WARNING: 2024-01-28T21:23:11.402 - [MainThread]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO: 2024-01-28T21:23:11.402 - [MainThread]  * Running on http://172.17.0.2:3111/ (Press CTRL+C to quit)
+INFO: 2024-01-28T21:24:22.963 - [Thread-1] 172.17.0.1 - - [28/Jan/2024 21:24:22] "GET / HTTP/1.1" 200 -
+INFO: 2024-01-28T21:24:22.979 - [Thread-2] 172.17.0.1 - - [28/Jan/2024 21:24:22] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO: 2024-01-28T21:24:22.983 - [Thread-3] 172.17.0.1 - - [28/Jan/2024 21:24:22] "GET /favicon.ico HTTP/1.1" 404 -
+INFO: 2024-01-28T21:24:25.26 - [Thread-4] Article 2020 CNCF Annual Report retrieved!
+INFO: 2024-01-28T21:24:25.29 - [Thread-4] 172.17.0.1 - - [28/Jan/2024 21:24:25] "GET /1 HTTP/1.1" 200 -
+INFO: 2024-01-28T21:24:25.43 - [Thread-5] 172.17.0.1 - - [28/Jan/2024 21:24:25] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO: 2024-01-28T21:24:26.195 - [Thread-6] 172.17.0.1 - - [28/Jan/2024 21:24:26] "GET / HTTP/1.1" 200 -
+INFO: 2024-01-28T21:24:26.209 - [Thread-7] 172.17.0.1 - - [28/Jan/2024 21:24:26] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO: 2024-01-28T21:28:21.793 - [Thread-10] Article 2020 CNCF Annual Report retrieved!
+INFO: 2024-01-28T21:28:21.793 - [Thread-10] 172.17.0.1 - - [28/Jan/2024 21:28:21] "GET /1 HTTP/1.1" 200 -
+INFO: 2024-01-28T21:28:21.810 - [Thread-11] 172.17.0.1 - - [28/Jan/2024 21:28:21] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO: 2024-01-28T21:28:33.501 - [Thread-13] Status request successfull
+DEBUG: 2024-01-28T21:28:33.501 - [Thread-13] DEBUG message
+INFO: 2024-01-28T21:28:33.501 - [Thread-13] 172.17.0.1 - - [28/Jan/2024 21:28:33] "GET /healthz HTTP/1.1" 200 -
+INFO: 2024-01-28T21:28:36.652 - [Thread-14] Article Kubernetes v1.20 Release Notes retrieved!
+INFO: 2024-01-28T21:28:36.652 - [Thread-14] 172.17.0.1 - - [28/Jan/2024 21:28:36] "GET /3 HTTP/1.1" 200 -
+INFO: 2024-01-28T21:28:36.667 - [Thread-15] 172.17.0.1 - - [28/Jan/2024 21:28:36] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO: 2024-01-28T21:28:38.787 - [Thread-16] About Us page is retrieved!
+INFO: 2024-01-28T21:28:38.789 - [Thread-16] 172.17.0.1 - - [28/Jan/2024 21:28:38] "GET /about HTTP/1.1" 200 -
+INFO: 2024-01-28T21:28:38.804 - [Thread-17] 172.17.0.1 - - [28/Jan/2024 21:28:38] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO: 2024-01-28T21:28:40.64 - [Thread-18] 172.17.0.1 - - [28/Jan/2024 21:28:40] "GET / HTTP/1.1" 200 -
+INFO: 2024-01-28T21:28:40.79 - [Thread-19] 172.17.0.1 - - [28/Jan/2024 21:28:40] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO: 2024-01-28T21:28:47.856 - [Thread-21] Metrics request successfull
+INFO: 2024-01-28T21:28:47.856 - [Thread-21] 172.17.0.1 - - [28/Jan/2024 21:28:47] "GET /metrics HTTP/1.1" 200 -
+INFO: 2024-01-28T21:33:43.232 - [Thread-23] 172.17.0.1 - - [28/Jan/2024 21:33:43] "GET /create HTTP/1.1" 200 -
+INFO: 2024-01-28T21:33:43.247 - [Thread-24] 172.17.0.1 - - [28/Jan/2024 21:33:43] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO: 2024-01-28T21:33:57.337 - [Thread-26] New Article udacity test created!
+INFO: 2024-01-28T21:33:57.337 - [Thread-26] 172.17.0.1 - - [28/Jan/2024 21:33:57] "POST /create HTTP/1.1" 302 -
+INFO: 2024-01-28T21:33:57.341 - [Thread-27] 172.17.0.1 - - [28/Jan/2024 21:33:57] "GET / HTTP/1.1" 200 -
+INFO: 2024-01-28T21:33:57.355 - [Thread-28] 172.17.0.1 - - [28/Jan/2024 21:33:57] "GET /static/css/main.css HTTP/1.1" 304 -
