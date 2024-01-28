@@ -3,6 +3,7 @@ import sqlite3
 from flask import Flask, jsonify, json, render_template, request, url_for, redirect, flash
 from werkzeug.exceptions import abort
 import logging
+import sys
 
 
 #Connection Counter
@@ -47,6 +48,7 @@ def index():
 def post(post_id):
     post = get_post(post_id)
     if post is None:
+      app.logger.info('Article with id %s is not found!',str(post_id))
       return render_template('404.html'), 404
     else:
       app.logger.info('Article %s retrieved!',str(post['title']))
@@ -55,6 +57,7 @@ def post(post_id):
 # Define the About Us page
 @app.route('/about')
 def about():
+    app.logger.info('About Us page is retrieved!')
     return render_template('about.html')
 
 # Define the post creation functionality 
@@ -72,7 +75,7 @@ def create():
                          (title, content))
             connection.commit()
             connection.close()
-
+            app.logger.info('New Article %s created!',str(title))
             return redirect(url_for('index'))
 
     return render_template('create.html')
@@ -108,5 +111,12 @@ def metrics():
 # start the application on port 3111
 if __name__ == "__main__":
    #add logging
-   logging.basicConfig(filename='app.log',level=logging.DEBUG)
-   app.run(host='0.0.0.0', port='3111')
+    fh = logging.FileHandler('app.log')
+    logging.basicConfig(
+            level=logging.DEBUG,
+            format=
+            '%(levelname)s: %(asctime)s.%(msecs)d - [%(threadName)s] %(message)s',
+            datefmt='%Y-%m-%dT%H:%M:%S',
+            handlers=[fh, logging.StreamHandler(sys.stdout)]
+    )
+    app.run(host='0.0.0.0', port='3111')

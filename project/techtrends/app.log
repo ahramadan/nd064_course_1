@@ -1,0 +1,97 @@
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://172.22.112.12:3111/ (Press CTRL+C to quit)
+INFO:app:Metrics request successfull
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:02:25] "GET /metrics HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:02:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:02:28] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:Article 2020 CNCF Annual Report retrieved!
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:02:28] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:02:28] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:02:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:02:29] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:Article KubeCon + CloudNativeCon 2021 retrieved!
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:02:30] "GET /2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:02:30] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:02:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:02:30] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:Article Kubernetes v1.20 Release Notes retrieved!
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:02:31] "GET /3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:02:31] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:02:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:02:32] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:Article CNCF Cloud Native Interactive Landscape retrieved!
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:02:32] "GET /4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:02:32] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:02:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:02:34] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:Article CNCF Cloud Native Definition v1.0 retrieved!
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:02:35] "GET /5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:02:35] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:02:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:02:36] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:Article CNCF Cloud Native Definition v1.0 retrieved!
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:02:38] "GET /5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:02:38] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:02:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:02:39] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:Article Kubernetes Certification retrieved!
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:02:40] "GET /6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:02:40] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:02:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:02:42] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:Article 2020 CNCF Annual Report retrieved!
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:03:44] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:03:44] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:03:48] "[33mGET /9 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:03:48] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-01-28T20:08:43.589 - WARNING: [MainThread]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-01-28T20:08:43.589 - INFO: [MainThread]  * Running on http://172.22.112.12:3111/ (Press CTRL+C to quit)
+2024-01-28T20:09:03.608 - INFO: [Thread-1 (process_request_thread)] 127.0.0.1 - - [28/Jan/2024 20:09:03] "GET / HTTP/1.1" 200 -
+2024-01-28T20:09:03.655 - INFO: [Thread-2 (process_request_thread)] 127.0.0.1 - - [28/Jan/2024 20:09:03] "GET /static/css/main.css HTTP/1.1" 200 -
+2024-01-28T20:09:03.659 - INFO: [Thread-3 (process_request_thread)] 127.0.0.1 - - [28/Jan/2024 20:09:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-28T20:09:06.849 - INFO: [Thread-4 (process_request_thread)] Article 2020 CNCF Annual Report retrieved!
+2024-01-28T20:09:06.851 - INFO: [Thread-4 (process_request_thread)] 127.0.0.1 - - [28/Jan/2024 20:09:06] "GET /1 HTTP/1.1" 200 -
+2024-01-28T20:09:06.868 - INFO: [Thread-5 (process_request_thread)] 127.0.0.1 - - [28/Jan/2024 20:09:06] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-01-28T20:09:08.8 - INFO: [Thread-6 (process_request_thread)] 127.0.0.1 - - [28/Jan/2024 20:09:08] "GET / HTTP/1.1" 200 -
+2024-01-28T20:09:08.22 - INFO: [Thread-7 (process_request_thread)] 127.0.0.1 - - [28/Jan/2024 20:09:08] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-01-28T20:09:08.713 - INFO: [Thread-8 (process_request_thread)] Article KubeCon + CloudNativeCon 2021 retrieved!
+2024-01-28T20:09:08.713 - INFO: [Thread-8 (process_request_thread)] 127.0.0.1 - - [28/Jan/2024 20:09:08] "GET /2 HTTP/1.1" 200 -
+2024-01-28T20:09:08.729 - INFO: [Thread-9 (process_request_thread)] 127.0.0.1 - - [28/Jan/2024 20:09:08] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-01-28T20:09:09.994 - INFO: [Thread-10 (process_request_thread)] 127.0.0.1 - - [28/Jan/2024 20:09:09] "GET / HTTP/1.1" 200 -
+2024-01-28T20:09:10.13 - INFO: [Thread-11 (process_request_thread)] 127.0.0.1 - - [28/Jan/2024 20:09:10] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-01-28T20:09:11.149 - INFO: [Thread-12 (process_request_thread)] Article CNCF Cloud Native Interactive Landscape retrieved!
+2024-01-28T20:09:11.149 - INFO: [Thread-12 (process_request_thread)] 127.0.0.1 - - [28/Jan/2024 20:09:11] "GET /4 HTTP/1.1" 200 -
+2024-01-28T20:09:11.164 - INFO: [Thread-13 (process_request_thread)] 127.0.0.1 - - [28/Jan/2024 20:09:11] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-01-28T20:09:12.60 - INFO: [Thread-14 (process_request_thread)] 127.0.0.1 - - [28/Jan/2024 20:09:12] "GET / HTTP/1.1" 200 -
+2024-01-28T20:09:12.76 - INFO: [Thread-15 (process_request_thread)] 127.0.0.1 - - [28/Jan/2024 20:09:12] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-01-28T20:09:14.190 - INFO: [Thread-16 (process_request_thread)] Article Kubernetes Certification retrieved!
+2024-01-28T20:09:14.191 - INFO: [Thread-16 (process_request_thread)] 127.0.0.1 - - [28/Jan/2024 20:09:14] "GET /6 HTTP/1.1" 200 -
+2024-01-28T20:09:14.206 - INFO: [Thread-17 (process_request_thread)] 127.0.0.1 - - [28/Jan/2024 20:09:14] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-01-28T20:09:15.725 - INFO: [Thread-18 (process_request_thread)] 127.0.0.1 - - [28/Jan/2024 20:09:15] "GET / HTTP/1.1" 200 -
+2024-01-28T20:09:15.740 - INFO: [Thread-19 (process_request_thread)] 127.0.0.1 - - [28/Jan/2024 20:09:15] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-01-28T20:10:00.38 - INFO: [Thread-22 (process_request_thread)] Article 2020 CNCF Annual Report retrieved!
+2024-01-28T20:10:00.39 - INFO: [Thread-22 (process_request_thread)] 127.0.0.1 - - [28/Jan/2024 20:10:00] "GET /1 HTTP/1.1" 200 -
+2024-01-28T20:10:00.61 - INFO: [Thread-23 (process_request_thread)] 127.0.0.1 - - [28/Jan/2024 20:10:00] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-01-28T20:10:03.189 - INFO: [Thread-24 (process_request_thread)] Article with id 99 is not found!
+2024-01-28T20:10:03.191 - INFO: [Thread-24 (process_request_thread)] 127.0.0.1 - - [28/Jan/2024 20:10:03] "[33mGET /99 HTTP/1.1[0m" 404 -
+2024-01-28T20:10:03.207 - INFO: [Thread-25 (process_request_thread)] 127.0.0.1 - - [28/Jan/2024 20:10:03] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-01-28T20:10:32.21 - INFO: [Thread-26 (process_request_thread)] 127.0.0.1 - - [28/Jan/2024 20:10:32] "[33mGET /metrecis HTTP/1.1[0m" 404 -
+2024-01-28T20:10:57.289 - INFO: [Thread-27 (process_request_thread)] Status request successfull
+2024-01-28T20:10:57.290 - DEBUG: [Thread-27 (process_request_thread)] DEBUG message
+2024-01-28T20:10:57.290 - INFO: [Thread-27 (process_request_thread)] 127.0.0.1 - - [28/Jan/2024 20:10:57] "GET /healthz HTTP/1.1" 200 -
+WARNING: 2024-01-28T20:13:09.465 - [MainThread]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO: 2024-01-28T20:13:09.465 - [MainThread]  * Running on http://172.22.112.12:3111/ (Press CTRL+C to quit)
+INFO: 2024-01-28T20:13:20.255 - [Thread-1 (process_request_thread)] Status request successfull
+DEBUG: 2024-01-28T20:13:20.255 - [Thread-1 (process_request_thread)] DEBUG message
+INFO: 2024-01-28T20:13:20.255 - [Thread-1 (process_request_thread)] 127.0.0.1 - - [28/Jan/2024 20:13:20] "GET /healthz HTTP/1.1" 200 -
+INFO: 2024-01-28T20:13:33.417 - [Thread-2 (process_request_thread)] 127.0.0.1 - - [28/Jan/2024 20:13:33] "GET / HTTP/1.1" 200 -
+INFO: 2024-01-28T20:13:33.437 - [Thread-3 (process_request_thread)] 127.0.0.1 - - [28/Jan/2024 20:13:33] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO: 2024-01-28T20:13:38.518 - [Thread-4 (process_request_thread)] Article KubeCon + CloudNativeCon 2021 retrieved!
+INFO: 2024-01-28T20:13:38.519 - [Thread-4 (process_request_thread)] 127.0.0.1 - - [28/Jan/2024 20:13:38] "GET /2 HTTP/1.1" 200 -
+INFO: 2024-01-28T20:13:38.537 - [Thread-5 (process_request_thread)] 127.0.0.1 - - [28/Jan/2024 20:13:38] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO: 2024-01-28T20:14:02.16 - [Thread-6 (process_request_thread)] About Us page is retrieved!
+INFO: 2024-01-28T20:14:02.18 - [Thread-6 (process_request_thread)] 127.0.0.1 - - [28/Jan/2024 20:14:02] "GET /about HTTP/1.1" 200 -
+INFO: 2024-01-28T20:14:02.37 - [Thread-7 (process_request_thread)] 127.0.0.1 - - [28/Jan/2024 20:14:02] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
