@@ -25,13 +25,11 @@ resources:
 containerPort: 3111
 
 livenessProbe:
-  enabled: true
   httpGet:
     path: /healthz
     port: 3111
 
 readinessProbe:
-  enabled: true
   httpGet:
     path: /healthz
     port: 3111
